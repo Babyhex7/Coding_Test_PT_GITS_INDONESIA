@@ -1,3 +1,5 @@
+//go:build ignore
+
 package main
 
 import "fmt"
@@ -63,7 +65,7 @@ func printIntArray(arr []int, index int) {
 
 func main() {
 	fmt.Println(" Dense Ranking Problem")
-	fmt.Println("Sistem ranking pemain skor sama maka rankingnya sama")
+	fmt.Println("Sistem ranking pemain skor sama  rankingnya sama")
 	fmt.Println()
 	
 	// Test case 1 (dari soal)
@@ -77,7 +79,7 @@ func main() {
 	printIntArray(gitsScores1, 0)
 	fmt.Println()
 	result1 := denseRanking(leaderboard1, gitsScores1)
-	fmt.Print("Rankings: ")
+	fmt.Print("Ranking: ")
 	printArray(result1, 0)
 	fmt.Println()
 	fmt.Println()
@@ -93,7 +95,7 @@ func main() {
 	printIntArray(gitsScores2, 0)
 	fmt.Println()
 	result2 := denseRanking(leaderboard2, gitsScores2)
-	fmt.Print("Rankings: ")
+	fmt.Print("Rankin: ")
 	printArray(result2, 0)
 	fmt.Println()
 	fmt.Println()
@@ -109,7 +111,7 @@ func main() {
 	printIntArray(gitsScores3, 0)
 	fmt.Println()
 	result3 := denseRanking(leaderboard3, gitsScores3)
-	fmt.Print("Rankings: ")
+	fmt.Print("Ranking: ")
 	printArray(result3, 0)
 	fmt.Println()
 }
